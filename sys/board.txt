@@ -34,10 +34,11 @@ adc.prefilter.enable = true
 
 
 	
-//ESP Settings
-//8266wifi.espDataReadyPin = 0.28;
-//8266wifi.lpcTfrReadyPin = 1.30;
-//8266wifi.espResetPin = 1.31;
+//wifi pins
+8266wifi.espDataReadyPin = 0.28;
+8266wifi.lpcTfrReadyPin = 1.30;
+8266wifi.espResetPin = 1.31;
+adc.prefilter.enable = true;
 	
 
 
